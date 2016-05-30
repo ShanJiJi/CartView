@@ -15,6 +15,7 @@
 		04BF8D1D1CFBD996006C7B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF8D1B1CFBD996006C7B01 /* LaunchScreen.storyboard */; };
 		04BF8D281CFBD996006C7B01 /* CartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF8D271CFBD996006C7B01 /* CartTests.m */; };
 		04BF8D331CFBD996006C7B01 /* CartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF8D321CFBD996006C7B01 /* CartUITests.m */; };
+		04BF8D421CFBEFC4006C7B01 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF8D411CFBEFC4006C7B01 /* MyCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		04BF8D2E1CFBD996006C7B01 /* CartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BF8D321CFBD996006C7B01 /* CartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartUITests.m; sourceTree = "<group>"; };
 		04BF8D341CFBD996006C7B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF8D401CFBEFC4006C7B01 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		04BF8D411CFBEFC4006C7B01 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				04BF8D111CFBD996006C7B01 /* AppDelegate.m */,
 				04BF8D131CFBD996006C7B01 /* ViewController.h */,
 				04BF8D141CFBD996006C7B01 /* ViewController.m */,
+				04BF8D401CFBEFC4006C7B01 /* MyCell.h */,
+				04BF8D411CFBEFC4006C7B01 /* MyCell.m */,
 				04BF8D161CFBD996006C7B01 /* Main.storyboard */,
 				04BF8D191CFBD996006C7B01 /* Assets.xcassets */,
 				04BF8D1B1CFBD996006C7B01 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BF8D151CFBD996006C7B01 /* ViewController.m in Sources */,
+				04BF8D421CFBEFC4006C7B01 /* MyCell.m in Sources */,
 				04BF8D121CFBD996006C7B01 /* AppDelegate.m in Sources */,
 				04BF8D0F1CFBD996006C7B01 /* main.m in Sources */,
 			);

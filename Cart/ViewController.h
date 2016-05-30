@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *greenBtn;
+@property (weak, nonatomic) IBOutlet UIButton *redBtn;
 
 @end
 
