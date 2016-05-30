@@ -91,6 +91,76 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     MyCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCell"];
     
+    cell.addCartBlock = ^(MyCell *selectcCell){
+        
+        //把选中cell在tableView中的坐标转化为在superView上的坐标
+        CGRect rectInTableView = [_mainTableView rectForRowAtIndexPath:indexPath];
+        CGRect cellFrame = [_mainTableView convertRect:rectInTableView toView:[_mainTableView superview]];
+    
+        //起点
+        CGPoint startPoint = CGPointMake((cellFrame.origin.x + cellFrame.size.width)/2, (cellFrame.origin.y + cellFrame.size.height)/2);
+        //控点
+        CGPoint controlPoint = CGPointMake(_greenBtn.center.x, startPoint.y);
+        
+        MyCell *animationCell = [_mainTableView dequeueReusableCellWithIdentifier:@"MyCell"];
+        animationCell.myImageView.image = selectcCell.myImageView.image;
+        animationCell.frame = cellFrame;
+        [self.view addSubview:animationCell];
+        
+        //创建关键帧
+        CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
+        animation.delegate = self;
+        //动画时间
+        animation.duration = 3;
+        
+        //当动画完成，停留到结束位置
+        animation.removedOnCompletion = NO;
+        animation.fillMode = kCAFillModeForwards;
+        
+        //当方法名字遇到create,new,copy,retain，都需要管理内存
+        CGMutablePathRef path = CGPathCreateMutable();
+        //设置起点
+        CGPathMoveToPoint(path, NULL, startPoint.x, startPoint.y);
+        CGPathAddQuadCurveToPoint(path, NULL, controlPoint.x, controlPoint.y, _greenBtn.center.x, _greenBtn.center.y);
+        
+        //设置动画路径
+        animation.path = path;
+        
+        //执行动画
+        [animationCell.layer addAnimation:animation forKey:nil];
+        
+        [UIView animateWithDuration:3.00 animations:^{
+            
+            // 先缩小
+            animationCell.center = self.greenBtn.center;
+            animationCell.transform = CGAffineTransformMakeScale(0.1, 0.1);
+            animationCell.alpha = 0.1;
+            
+        } completion:^(BOOL finished) {
+            
+            num ++;
+            [animationCell removeFromSuperview];
+            // 先缩小
+            _greenBtn.transform = CGAffineTransformMakeScale(0.7, 0.7);
+            
+            // 弹簧动画，参数分别为：时长，延时，弹性（越小弹性越大），初始速度
+            [UIView animateWithDuration: 0.7 delay:0 usingSpringWithDamping:0.3 initialSpringVelocity:0.3 options:0 animations:^{
+                // 放大
+                _greenBtn.transform = CGAffineTransformMakeScale(1, 1);
+                [self.greenBtn setTitle:[NSString stringWithFormat:@"%d",num] forState:0];
+                
+            } completion:nil];
+        }];
+        
+        //释放路径
+        CGPathRelease(path);
+        //备注：该动画执行完毕后会调用animationDidStop:finished:方法
+        //备注：该动画执行完毕后会调用animationDidStop:finished:方法
+        //备注：该动画执行完毕后会调用animationDidStop:finished:方法
+        //备注：该动画执行完毕后会调用animationDidStop:finished:方法
+        
+    };
+    
     cell.myImageView.image = [UIImage imageNamed:@"组1"];
     
     return cell;
@@ -132,9 +202,11 @@
         } completion:nil];
     }];
     
-    
-    
 }
 
+- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
+{
+    NSLog(@"动画完成了");
+}
 
 @end

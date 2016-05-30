@@ -41,6 +41,9 @@
                                                     <rect key="frame" x="236" y="14" width="76" height="47"/>
                                                     <color key="backgroundColor" red="0.86274509799999999" green="1" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <state key="normal" title="曲线动画"/>
+                                                    <connections>
+                                                        <action selector="addCartBrnClick:" destination="9hA-eN-aFb" eventType="touchUpInside" id="iLf-Sq-hz4"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <color key="backgroundColor" red="0.086274509799999996" green="0.61176470589999998" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>

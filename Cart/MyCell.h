@@ -12,4 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *myImageView;
 
+@property (nonatomic, copy) void (^addCartBlock)(MyCell *selectcCell);
+
 @end
