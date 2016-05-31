@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B09E6F1CFD1E5E001D3E55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B09E6E1CFD1E5E001D3E55 /* main.m */; };
+		04B09E721CFD1E5E001D3E55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B09E711CFD1E5E001D3E55 /* AppDelegate.m */; };
+		04B09E751CFD1E5E001D3E55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B09E741CFD1E5E001D3E55 /* ViewController.m */; };
+		04B09E781CFD1E5E001D3E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B09E761CFD1E5E001D3E55 /* Main.storyboard */; };
+		04B09E7A1CFD1E5E001D3E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B09E791CFD1E5E001D3E55 /* Assets.xcassets */; };
+		04B09E7D1CFD1E5E001D3E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B09E7B1CFD1E5E001D3E55 /* LaunchScreen.storyboard */; };
+		04B09E881CFD1E5E001D3E55 /* MallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B09E871CFD1E5E001D3E55 /* MallTests.m */; };
+		04B09E931CFD1E5E001D3E55 /* MallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B09E921CFD1E5E001D3E55 /* MallUITests.m */; };
+		04B09EA01CFD20CA001D3E55 /* MallIbfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B09E9F1CFD20CA001D3E55 /* MallIbfo.m */; };
+		04B09EA31CFD235E001D3E55 /* MallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B09EA21CFD235E001D3E55 /* MallCell.m */; };
 		04BF8D0F1CFBD996006C7B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF8D0E1CFBD996006C7B01 /* main.m */; };
 		04BF8D121CFBD996006C7B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF8D111CFBD996006C7B01 /* AppDelegate.m */; };
 		04BF8D151CFBD996006C7B01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF8D141CFBD996006C7B01 /* ViewController.m */; };
@@ -19,6 +29,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		04B09E841CFD1E5E001D3E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BF8D021CFBD995006C7B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B09E6A1CFD1E5E001D3E55;
+			remoteInfo = Mall;
+		};
+		04B09E8F1CFD1E5E001D3E55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BF8D021CFBD995006C7B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B09E6A1CFD1E5E001D3E55;
+			remoteInfo = Mall;
+		};
 		04BF8D241CFBD996006C7B01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04BF8D021CFBD995006C7B01 /* Project object */;
@@ -36,6 +60,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B09E6B1CFD1E5E001D3E55 /* Mall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B09E6E1CFD1E5E001D3E55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B09E701CFD1E5E001D3E55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B09E711CFD1E5E001D3E55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B09E731CFD1E5E001D3E55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B09E741CFD1E5E001D3E55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B09E771CFD1E5E001D3E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B09E791CFD1E5E001D3E55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B09E7C1CFD1E5E001D3E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B09E7E1CFD1E5E001D3E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B09E831CFD1E5E001D3E55 /* MallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B09E871CFD1E5E001D3E55 /* MallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallTests.m; sourceTree = "<group>"; };
+		04B09E891CFD1E5E001D3E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B09E8E1CFD1E5E001D3E55 /* MallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B09E921CFD1E5E001D3E55 /* MallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallUITests.m; sourceTree = "<group>"; };
+		04B09E941CFD1E5E001D3E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B09E9E1CFD20CA001D3E55 /* MallIbfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallIbfo.h; sourceTree = "<group>"; };
+		04B09E9F1CFD20CA001D3E55 /* MallIbfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallIbfo.m; sourceTree = "<group>"; };
+		04B09EA11CFD235E001D3E55 /* MallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallCell.h; sourceTree = "<group>"; };
+		04B09EA21CFD235E001D3E55 /* MallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallCell.m; sourceTree = "<group>"; };
 		04BF8D0A1CFBD996006C7B01 /* Cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BF8D0E1CFBD996006C7B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04BF8D101CFBD996006C7B01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +101,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04B09E681CFD1E5E001D3E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B09E801CFD1E5E001D3E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B09E8B1CFD1E5E001D3E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04BF8D071CFBD996006C7B01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,12 +146,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B09E6C1CFD1E5E001D3E55 /* Mall */ = {
+			isa = PBXGroup;
+			children = (
+				04B09E701CFD1E5E001D3E55 /* AppDelegate.h */,
+				04B09E711CFD1E5E001D3E55 /* AppDelegate.m */,
+				04B09E731CFD1E5E001D3E55 /* ViewController.h */,
+				04B09E741CFD1E5E001D3E55 /* ViewController.m */,
+				04B09E761CFD1E5E001D3E55 /* Main.storyboard */,
+				04B09E791CFD1E5E001D3E55 /* Assets.xcassets */,
+				04B09E7B1CFD1E5E001D3E55 /* LaunchScreen.storyboard */,
+				04B09E7E1CFD1E5E001D3E55 /* Info.plist */,
+				04B09E6D1CFD1E5E001D3E55 /* Supporting Files */,
+				04B09E9E1CFD20CA001D3E55 /* MallIbfo.h */,
+				04B09E9F1CFD20CA001D3E55 /* MallIbfo.m */,
+				04B09EA11CFD235E001D3E55 /* MallCell.h */,
+				04B09EA21CFD235E001D3E55 /* MallCell.m */,
+			);
+			path = Mall;
+			sourceTree = "<group>";
+		};
+		04B09E6D1CFD1E5E001D3E55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B09E6E1CFD1E5E001D3E55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B09E861CFD1E5E001D3E55 /* MallTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B09E871CFD1E5E001D3E55 /* MallTests.m */,
+				04B09E891CFD1E5E001D3E55 /* Info.plist */,
+			);
+			path = MallTests;
+			sourceTree = "<group>";
+		};
+		04B09E911CFD1E5E001D3E55 /* MallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B09E921CFD1E5E001D3E55 /* MallUITests.m */,
+				04B09E941CFD1E5E001D3E55 /* Info.plist */,
+			);
+			path = MallUITests;
+			sourceTree = "<group>";
+		};
 		04BF8D011CFBD995006C7B01 = {
 			isa = PBXGroup;
 			children = (
 				04BF8D0C1CFBD996006C7B01 /* Cart */,
 				04BF8D261CFBD996006C7B01 /* CartTests */,
 				04BF8D311CFBD996006C7B01 /* CartUITests */,
+				04B09E6C1CFD1E5E001D3E55 /* Mall */,
+				04B09E861CFD1E5E001D3E55 /* MallTests */,
+				04B09E911CFD1E5E001D3E55 /* MallUITests */,
 				04BF8D0B1CFBD996006C7B01 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +211,9 @@
 				04BF8D0A1CFBD996006C7B01 /* Cart.app */,
 				04BF8D231CFBD996006C7B01 /* CartTests.xctest */,
 				04BF8D2E1CFBD996006C7B01 /* CartUITests.xctest */,
+				04B09E6B1CFD1E5E001D3E55 /* Mall.app */,
+				04B09E831CFD1E5E001D3E55 /* MallTests.xctest */,
+				04B09E8E1CFD1E5E001D3E55 /* MallUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +265,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		04B09E6A1CFD1E5E001D3E55 /* Mall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B09E9B1CFD1E5E001D3E55 /* Build configuration list for PBXNativeTarget "Mall" */;
+			buildPhases = (
+				04B09E671CFD1E5E001D3E55 /* Sources */,
+				04B09E681CFD1E5E001D3E55 /* Frameworks */,
+				04B09E691CFD1E5E001D3E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mall;
+			productName = Mall;
+			productReference = 04B09E6B1CFD1E5E001D3E55 /* Mall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B09E821CFD1E5E001D3E55 /* MallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B09E9C1CFD1E5E001D3E55 /* Build configuration list for PBXNativeTarget "MallTests" */;
+			buildPhases = (
+				04B09E7F1CFD1E5E001D3E55 /* Sources */,
+				04B09E801CFD1E5E001D3E55 /* Frameworks */,
+				04B09E811CFD1E5E001D3E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B09E851CFD1E5E001D3E55 /* PBXTargetDependency */,
+			);
+			name = MallTests;
+			productName = MallTests;
+			productReference = 04B09E831CFD1E5E001D3E55 /* MallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B09E8D1CFD1E5E001D3E55 /* MallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B09E9D1CFD1E5E001D3E55 /* Build configuration list for PBXNativeTarget "MallUITests" */;
+			buildPhases = (
+				04B09E8A1CFD1E5E001D3E55 /* Sources */,
+				04B09E8B1CFD1E5E001D3E55 /* Frameworks */,
+				04B09E8C1CFD1E5E001D3E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B09E901CFD1E5E001D3E55 /* PBXTargetDependency */,
+			);
+			name = MallUITests;
+			productName = MallUITests;
+			productReference = 04B09E8E1CFD1E5E001D3E55 /* MallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		04BF8D091CFBD996006C7B01 /* Cart */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04BF8D371CFBD996006C7B01 /* Build configuration list for PBXNativeTarget "Cart" */;
@@ -210,8 +380,20 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = ZhenWei;
 				TargetAttributes = {
+					04B09E6A1CFD1E5E001D3E55 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					04B09E821CFD1E5E001D3E55 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04B09E6A1CFD1E5E001D3E55;
+					};
+					04B09E8D1CFD1E5E001D3E55 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04B09E6A1CFD1E5E001D3E55;
+					};
 					04BF8D091CFBD996006C7B01 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = US3V2JJL69;
 					};
 					04BF8D221CFBD996006C7B01 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -239,11 +421,38 @@
 				04BF8D091CFBD996006C7B01 /* Cart */,
 				04BF8D221CFBD996006C7B01 /* CartTests */,
 				04BF8D2D1CFBD996006C7B01 /* CartUITests */,
+				04B09E6A1CFD1E5E001D3E55 /* Mall */,
+				04B09E821CFD1E5E001D3E55 /* MallTests */,
+				04B09E8D1CFD1E5E001D3E55 /* MallUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		04B09E691CFD1E5E001D3E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B09E7D1CFD1E5E001D3E55 /* LaunchScreen.storyboard in Resources */,
+				04B09E7A1CFD1E5E001D3E55 /* Assets.xcassets in Resources */,
+				04B09E781CFD1E5E001D3E55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B09E811CFD1E5E001D3E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B09E8C1CFD1E5E001D3E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04BF8D081CFBD996006C7B01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,6 +480,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04B09E671CFD1E5E001D3E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B09E751CFD1E5E001D3E55 /* ViewController.m in Sources */,
+				04B09E721CFD1E5E001D3E55 /* AppDelegate.m in Sources */,
+				04B09E6F1CFD1E5E001D3E55 /* main.m in Sources */,
+				04B09EA01CFD20CA001D3E55 /* MallIbfo.m in Sources */,
+				04B09EA31CFD235E001D3E55 /* MallCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B09E7F1CFD1E5E001D3E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B09E881CFD1E5E001D3E55 /* MallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B09E8A1CFD1E5E001D3E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B09E931CFD1E5E001D3E55 /* MallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04BF8D061CFBD996006C7B01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,6 +538,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		04B09E851CFD1E5E001D3E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B09E6A1CFD1E5E001D3E55 /* Mall */;
+			targetProxy = 04B09E841CFD1E5E001D3E55 /* PBXContainerItemProxy */;
+		};
+		04B09E901CFD1E5E001D3E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B09E6A1CFD1E5E001D3E55 /* Mall */;
+			targetProxy = 04B09E8F1CFD1E5E001D3E55 /* PBXContainerItemProxy */;
+		};
 		04BF8D251CFBD996006C7B01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 04BF8D091CFBD996006C7B01 /* Cart */;
@@ -314,6 +561,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		04B09E761CFD1E5E001D3E55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B09E771CFD1E5E001D3E55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B09E7B1CFD1E5E001D3E55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B09E7C1CFD1E5E001D3E55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		04BF8D161CFBD996006C7B01 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -333,6 +596,74 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		04B09E951CFD1E5E001D3E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenwei.123.Mall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04B09E961CFD1E5E001D3E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenwei.123.Mall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04B09E971CFD1E5E001D3E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenwei.123.MallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mall.app/Mall";
+			};
+			name = Debug;
+		};
+		04B09E981CFD1E5E001D3E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenwei.123.MallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mall.app/Mall";
+			};
+			name = Release;
+		};
+		04B09E991CFD1E5E001D3E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenwei.123.MallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mall;
+			};
+			name = Debug;
+		};
+		04B09E9A1CFD1E5E001D3E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhenwei.123.MallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mall;
+			};
+			name = Release;
+		};
 		04BF8D351CFBD996006C7B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -421,10 +752,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhenwei.123.Cart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -432,10 +766,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhenwei.123.Cart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -488,6 +825,30 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04B09E9B1CFD1E5E001D3E55 /* Build configuration list for PBXNativeTarget "Mall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B09E951CFD1E5E001D3E55 /* Debug */,
+				04B09E961CFD1E5E001D3E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04B09E9C1CFD1E5E001D3E55 /* Build configuration list for PBXNativeTarget "MallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B09E971CFD1E5E001D3E55 /* Debug */,
+				04B09E981CFD1E5E001D3E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04B09E9D1CFD1E5E001D3E55 /* Build configuration list for PBXNativeTarget "MallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B09E991CFD1E5E001D3E55 /* Debug */,
+				04B09E9A1CFD1E5E001D3E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		04BF8D051CFBD995006C7B01 /* Build configuration list for PBXProject "Cart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -504,6 +865,7 @@
 				04BF8D391CFBD996006C7B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04BF8D3A1CFBD996006C7B01 /* Build configuration list for PBXNativeTarget "CartTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +874,7 @@
 				04BF8D3C1CFBD996006C7B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04BF8D3D1CFBD996006C7B01 /* Build configuration list for PBXNativeTarget "CartUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +883,7 @@
 				04BF8D3F1CFBD996006C7B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
