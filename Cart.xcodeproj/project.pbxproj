@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0448BD6B1CFE795300F88C58 /* Snip20160531_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0448BD6A1CFE795300F88C58 /* Snip20160531_1.png */; };
 		04B09E6F1CFD1E5E001D3E55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B09E6E1CFD1E5E001D3E55 /* main.m */; };
 		04B09E721CFD1E5E001D3E55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B09E711CFD1E5E001D3E55 /* AppDelegate.m */; };
 		04B09E751CFD1E5E001D3E55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B09E741CFD1E5E001D3E55 /* ViewController.m */; };
@@ -17,6 +18,7 @@
 		04B09E931CFD1E5E001D3E55 /* MallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B09E921CFD1E5E001D3E55 /* MallUITests.m */; };
 		04B09EA01CFD20CA001D3E55 /* MallIbfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B09E9F1CFD20CA001D3E55 /* MallIbfo.m */; };
 		04B09EA31CFD235E001D3E55 /* MallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B09EA21CFD235E001D3E55 /* MallCell.m */; };
+		04B09EA51CFD5AAD001D3E55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B09EA41CFD5AAD001D3E55 /* Images.xcassets */; };
 		04BF8D0F1CFBD996006C7B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF8D0E1CFBD996006C7B01 /* main.m */; };
 		04BF8D121CFBD996006C7B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF8D111CFBD996006C7B01 /* AppDelegate.m */; };
 		04BF8D151CFBD996006C7B01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF8D141CFBD996006C7B01 /* ViewController.m */; };
@@ -60,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0448BD6A1CFE795300F88C58 /* Snip20160531_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snip20160531_1.png; sourceTree = "<group>"; };
 		04B09E6B1CFD1E5E001D3E55 /* Mall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B09E6E1CFD1E5E001D3E55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04B09E701CFD1E5E001D3E55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +83,7 @@
 		04B09E9F1CFD20CA001D3E55 /* MallIbfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallIbfo.m; sourceTree = "<group>"; };
 		04B09EA11CFD235E001D3E55 /* MallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallCell.h; sourceTree = "<group>"; };
 		04B09EA21CFD235E001D3E55 /* MallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallCell.m; sourceTree = "<group>"; };
+		04B09EA41CFD5AAD001D3E55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04BF8D0A1CFBD996006C7B01 /* Cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BF8D0E1CFBD996006C7B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04BF8D101CFBD996006C7B01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -162,6 +166,8 @@
 				04B09E9F1CFD20CA001D3E55 /* MallIbfo.m */,
 				04B09EA11CFD235E001D3E55 /* MallCell.h */,
 				04B09EA21CFD235E001D3E55 /* MallCell.m */,
+				0448BD6A1CFE795300F88C58 /* Snip20160531_1.png */,
+				04B09EA41CFD5AAD001D3E55 /* Images.xcassets */,
 			);
 			path = Mall;
 			sourceTree = "<group>";
@@ -434,6 +440,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B09E7D1CFD1E5E001D3E55 /* LaunchScreen.storyboard in Resources */,
+				04B09EA51CFD5AAD001D3E55 /* Images.xcassets in Resources */,
+				0448BD6B1CFE795300F88C58 /* Snip20160531_1.png in Resources */,
 				04B09E7A1CFD1E5E001D3E55 /* Assets.xcassets in Resources */,
 				04B09E781CFD1E5E001D3E55 /* Main.storyboard in Resources */,
 			);
@@ -600,7 +608,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Mall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhenwei.123.Mall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -611,7 +621,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Mall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhenwei.123.Mall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -832,6 +844,7 @@
 				04B09E961CFD1E5E001D3E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B09E9C1CFD1E5E001D3E55 /* Build configuration list for PBXNativeTarget "MallTests" */ = {
 			isa = XCConfigurationList;
@@ -840,6 +853,7 @@
 				04B09E981CFD1E5E001D3E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B09E9D1CFD1E5E001D3E55 /* Build configuration list for PBXNativeTarget "MallUITests" */ = {
 			isa = XCConfigurationList;
@@ -848,6 +862,7 @@
 				04B09E9A1CFD1E5E001D3E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04BF8D051CFBD995006C7B01 /* Build configuration list for PBXProject "Cart" */ = {
 			isa = XCConfigurationList;

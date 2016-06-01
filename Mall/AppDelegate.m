@@ -16,7 +16,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+//    _window.rootViewController.view.alpha = 0;
+//    UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"LaunchImage"]];
+//    imageView.frame = [UIScreen mainScreen].bounds;
+//    [_window addSubview:imageView];
+//    [UIView animateWithDuration:5 animations:^{
+//        _window.rootViewController.view.alpha = 1;
+//    } completion:^(BOOL finished) {
+//        [imageView removeFromSuperview];
+//    }];
+    
+    
     return YES;
 }
 

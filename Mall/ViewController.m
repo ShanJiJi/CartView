@@ -63,7 +63,7 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     self.mallCell = [_mainTableView dequeueReusableCellWithIdentifier:@"MallCell"];
-    
+    self.mallCell.selectionStyle = UITableViewCellSelectionStyleNone;
     MallIbfo *ibfo = data[indexPath.row];
     
     self.mallCell.title.text = ibfo.mallTitle;

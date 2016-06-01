@@ -28,7 +28,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="138.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EuH-w7-4aU">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snip20160531_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="EuH-w7-4aU">
                                                     <rect key="frame" x="10" y="10" width="96" height="91"/>
                                                     <color key="backgroundColor" red="0.16078431369999999" green="0.6776166066" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
@@ -40,14 +40,14 @@
                                                     <rect key="frame" x="116" y="10" width="288" height="21"/>
                                                     <color key="backgroundColor" red="0.92941176469999998" green="0.45882352939999999" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="288" translatesAutoresizingMaskIntoConstraints="NO" id="T45-o5-l8W">
                                                     <rect key="frame" x="116" y="41" width="288" height="87.5"/>
                                                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -95,4 +95,7 @@
             <point key="canvasLocation" x="262" y="205"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Snip20160531_1.png" width="1116" height="406"/>
+    </resources>
 </document>
